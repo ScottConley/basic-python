@@ -1,4 +1,4 @@
-'''The Crocery Store Exercise'''
+'''The Grocery Store Exercise'''
 
 my_grocery_list = []
 
