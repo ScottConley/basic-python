@@ -3,18 +3,25 @@
 def addition(num1, num2):
     result = num1 + num2
     print(f'{num1} + {num2} = {result}')
+    return result
 
 def subtraction(num1, num2):
     result = num1 - num2
     print(f'{num1} - {num2} = {result}')
+    return result
     
 def multiplication(num1, num2):
     result = num1 * num2
     print(f'{num1} * {num2} = {result}')
+    return result
     
 def division(num1, num2):
-    result = num1 / num2
-    print(f'{num1} / {num2} = {result}')
+    if num2 == 0:
+        print("I can't divide by zero!")
+    else:
+        result = num1 / num2
+        print(f'{num1} / {num2} = {result}')
+        return result
 
 def main():
     num1 = input('Please enter your first number.')
@@ -36,5 +43,6 @@ def main():
         
     elif op in ['d', 'division']:
         division(num1, num2)
-    
-main()
+
+if __name__ == '__main__':
+    main()
