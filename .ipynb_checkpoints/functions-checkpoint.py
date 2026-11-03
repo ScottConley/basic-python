@@ -16,6 +16,15 @@ def multi_arg_greet(first_name, last_name):
     
 arg_greet('Hi!')
 
+# Define a function that returns something
+
+def retFunc():
+    first_name = input('Enter a first name: ')
+    custom_greeting = f'Hello {first_name}, from the return greeting function!'
+    
+    # Return something out of the function to where it was called
+    return custom_greeting
+    
 def main():
     '''Our main function to call functions/make variables'''
     first_name = 'Joe'
@@ -24,6 +33,9 @@ def main():
     arg_greet(first_name)
     
     multi_arg_greet(first_name, last_name)
+    
+    cust_greet = retFunc()
+    print(cust_greet)
 
     if greet == 'Hello':
         hello()
