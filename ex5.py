@@ -40,7 +40,7 @@ raw_items = " apples,  bananas,grapes ,  mangoes ,pineapple  "
 #   - Strip whitespace from each piece.
 #   - Capitalize each item
 #   - Re-join with " | " as the separator.
-# TODO 2: Implement the above and print the final string.
+# TODO 2: Implement the above and print the final string.Hmm, I'm a little disappointed that the only way to make Altergeist strong enough to fight the top tier is so much reliance on two other archetypes. I'd hate with something that's basically just "good stuff pile". That has absolutely no style :(Hmm, I'm a little disappointed that the only way to make Altergeist strong enough to fight the top tier is so much reliance on two other archetypes. I'd hate with something that's basically just "good stuff pile". That has absolutely no style :(Hmm, I'm a little disappointed that the only way to make Altergeist strong enough to fight the top tier is so much reliance on two other archetypes. I'd hate with something that's basically just "good stuff pile". That has absolutely no style :(Hmm, I'm a little disappointed that the only way to make Altergeist strong enough to fight the top tier is so much reliance on two other archetypes. I'd hate with something that's basically just "good stuff pile". That has absolutely no style :(Hmm, I'm a little disappointed that the only way to make Altergeist strong enough to fight the top tier is so much reliance on two other archetypes. I'd hate with something that's basically just "good stuff pile". That has absolutely no style :(
 
 # Your code here
 

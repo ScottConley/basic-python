@@ -84,8 +84,10 @@ i = 1
 for item in list_of_string:
     all_caps_list.append(item.upper())
     print(all_caps_list[i-1:i:1])
-    print(all_caps_list[])
     i+=1
     
 print(all_caps_list)
-    
+
+for num in range(1,21):
+    print(num)
+

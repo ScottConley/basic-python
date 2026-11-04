@@ -87,4 +87,7 @@ for item in list_of_string:
     i+=1
     
 print(all_caps_list)
-    
+
+for num in range(1,21):
+    print(num)
+
