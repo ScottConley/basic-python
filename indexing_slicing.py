@@ -1,7 +1,12 @@
 '''Indexing and Slicing'''
 
 my_string = 'This is my string to index'
-my_list = ['This', 'is', 'my', 'list', 'to', 'index']
+my_list = ['This', 'is', 'my', 'list', 'CONTEXT:
+I am an advanced player building a competitive multi-deck Battle Box. Below is the exact spreadshe', 'index']
+
+print(my_list[-2])
+
+list = x for x in range(1,100): 
 
 # Indexing a string
 

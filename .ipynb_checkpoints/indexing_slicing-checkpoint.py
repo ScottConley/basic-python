@@ -3,6 +3,8 @@
 my_string = 'This is my string to index'
 my_list = ['This', 'is', 'my', 'list', 'to', 'index']
 
+print(my_list[-2])
+
 # Indexing a string
 
 my_indexed_string = my_string.index('string')

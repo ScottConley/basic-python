@@ -6,7 +6,7 @@ counter = 0
 #    print(counter)
 #    counter += 1
     
-while True:
+while 1:
     counter += 1
     
     if counter == 13:

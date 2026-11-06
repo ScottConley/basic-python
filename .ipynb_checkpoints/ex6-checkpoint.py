@@ -17,6 +17,6 @@ print(f'The sum of the multiples of three and five below this target is: {s}') #
 
 # This ones just for fun
 
-for i in range(1,16): print('Fizz' * (i % 3 == 0) + 'Buzz' * (i % 5 == 0) or i)
+for i in range(1,100): print('Fizz' * (i % 3 == 0) + 'Buzz' * (i % 5 == 0) or i)
 
 print(sum([x for x in range(1, 999) if i % 3 == 0 or i % 5 == 0]))
