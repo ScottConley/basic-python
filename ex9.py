@@ -14,7 +14,7 @@ def usr_calc_input():
             
             if usr_calc_input.lower() in params:
                 print("You got it!")
-                usr_calc_input = usr_calc_input[0:1]
+                usr_calc_input = usr_calc_input[0:1].lower()
                 return usr_calc_input
             
         except ValueError:
