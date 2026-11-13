@@ -1,6 +1,7 @@
 '''Number guessing game module'''
 
 import random
+import scoreboard as sb
 
 def num_check() -> int:
     while True:
@@ -39,12 +40,14 @@ def play_game(target: int) -> int:
 def score(attempts: int, guess: int) -> None:
     initials = input("Please enter your initials: ")
     print(f"The user {initials.upper()} has solved the game in {attempts} tries with a guess of {guess}!")
+    return initials
 
 def main() -> None:
     rand_num = random.randint(1, 100)
     print(rand_num)
     total_attempts, guess = play_game(rand_num)
-    score(total_attempts, guess)
+    initials = score(total_attempts, guess)
+    sb.main(initials, total_attempts)
     
 if __name__ == "__main__":
     main()
